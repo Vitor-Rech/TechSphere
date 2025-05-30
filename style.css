@@ -4,37 +4,41 @@
 }
 
 .cabecalho{
-    background-color: rgb(93, 5, 151);
-    color:aliceblue;
+    background-color:  rgb(67, 19, 99);
+    color:rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     padding: 1px 0;
     font-size: 20px;
 }
 
+body{
+    background-color: rgb(40, 8, 70);
+}
+
 .cabecalhoListaItem{
     display: inline-block;
-    margin: 0 16px;
+    margin: 10px 16px;
     padding: 24px 0;
 }
 
 .sobreImagem{
-           width:
+           width: 20%
 }
 
 .sobre{
-        background-image: linear gradient(#FFFFFF. #FFFFFF);
-        color: orange;
+        background-image: linear-gradient(#260742, #420452);
+        color: white;
         display: flex;
         justify-content: center;
-       align-items: center;
-       padding: 370px 0;
+       align-items:top;
+       padding: 200px 1px;
 }
 
 .sobreConteudo{
-        width:
+        width: 39%;
 }
 
 .sobreTitulo{
-         padding: 100px 50px;
+         padding: 40px 10px;
 }
